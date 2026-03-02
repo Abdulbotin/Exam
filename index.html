@@ -6,29 +6,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
 <div class="flex items-center w-[95%] justify-between m-auto mt-[20px]">
 <img src="./img/logo.svg" alt="">
-<div >
+<div class="hidden lg:block" >
     <p>8 (495) 926-06-03</p>
     <div class="flex items-center gap-2">
         <img src="./img/social.png" alt="">
         <p>Whatsapp</p>
     </div>
 </div>
-<div>
+<div class="hidden lg:block">
     <p>info@gormedcentre.ru</p>
   <p>Заказать звонок</p>
 </div>
-<div>
+<div class="hidden lg:block">
     <p>г. Мытищи,</p>
     <p>ул.Рождественская, д.7</p>
 </div>
-<div>
+<div class="hidden lg:block">
     <p>Ежедневно</p>
     <p>с 9.00 до 21.00</p>
 </div>
-<div class="flex items-center gap-4">
+<div class="hidden lg:block lg:flex lg:items-center lg:gap-4">
 <div class="w-[54px] h-[46px] rounded-[5px] bg-[#00C6BF]">
     <img class="flex  m-auto pt-[10px]" src="./img/zoom-search.png" alt="">
 
@@ -37,10 +37,252 @@
 <p class="flex justify-center pt-[10px]">Личный кабинет</p>
 </div>
 </div>
+<div class=" lg:hidden block flex items-center gap-5">
+    <img src="./img/call.png" alt="">
+    <img src="./img/burger.png" alt="">
+</div>
 </div>
     
-<div class="bg-[#0000000A] w-[90%] h-[50px] m-auto">
+<div class="hidden lg:block bg-[#0000000a] w-[90%] h-[47px] m-auto rounded-[5px] mt-[50px]">
+    <div class="flex items-center w-[96%] justify-between m-auto">
+<div class="flex items-center gap-3">
+    <p>Направления</p>
+    <img class="pt-[5px]" src="./img/Polygon 1.png" alt="">
+</div>
+<p>Услуги</p>
+<p>Врачи</p>
+<p>Отзывы</p>
+<p>Акции</p>
+<div class="flex items-center gap-3">
+<p>центре</p>
+<img class="pt-[5px]" src="./img/Polygon 1.png" alt="">
+</div>
+<p>Детство</p>
+<p>Контакты</p>
+<div class="flex items-center gap-3">
+    <img src="./img/icon (4).png" alt="">
+<p>Версия для слабовидящих</p>
+</div>
+<div class="w-[196px] h-[46px] rounded-[5px] bg-[#00578A]">
+<p class="flex justify-center pt-[10px]">Личный кабинет</p>
+</div>
+</div>
+</div>
 
+<div class=" w-full h-[500px] bg-gradient-to-r from-[#02B0C5] to-[#0074B8]">
+
+    <div class="lg:flex items-center justify-between w-[95%] m-auto ">
+    <div>
+        <p class="text-white lg:text-[60px] font-bold w-[600px]">Позаботьтесь о своём здоровье</p>
+        <p class="w-[450px] text-white mt-[20px] ">Осуществляем комплексное медицинское обслуживание населения: консультации и амбулаторное лечение у специалистов всех направлений, медицинские обследования и диагностические процедуры.</p>
+        <button class="w-[230px] h-[60px] bg-[#00C6BF] rounded-[5px] flex justify-center pt-[15px] mt-[20px]">Записаться</button>
+    </div>
+<div class="w-full h-[500px] 
+            bg-[url('/img/svg.png')] 
+            bg-cover
+             bg-center 
+           ">
+  <img class="lg:w-[480px]" src="./img/image (5).png" alt="">
+  
+</div>
+
+</div>
+
+</div>
+<div class="lg:flex items-center m-auto w-[100%] justify-between  mt-[-50px]">
+    <div class="w-[360px] h-[446px] bg-[#F0F6F9] space-y-3 pl-[3%]">
+<p class="text-[22px] font-black pt-[30px] " >Направления</p>
+<img  class="pt-[30px] m-auto" " src="./img/svg (1).png" alt="">
+<p class="pt-[20px]">Акушерство</p>
+<p>Косметология</p>
+<p>Хирургия</p>
+<p>Мануальная терапия</p>
+<p>Психотерапия</p>
+        <button class="w-[230px] h-[60px] bg-[#00578A] rounded-[5px] flex justify-center pt-[15px] mt-[30px]">Все услуги</button>
+
+</div>
+<div class="w-[360px] h-[446px] bg-[#F0F6F9] space-y-3 pl-[3%]">
+<p class="text-[22px] font-black pt-[30px] " >Диагностика</p>
+<img  class="pt-[30px] m-auto" " src="./img/svg (1).png" alt="">
+<p class="pt-[20px]">МРТ</p>
+<p>КТ</p>
+<p>УЗИ</p>
+<p>Рентген</p>
+<p>Гастроскопия</p>
+        <button class="w-[230px] h-[60px] bg-[#00578A] rounded-[5px] flex justify-center pt-[15px] mt-[30px]">Вся диагностика</button>
+
+</div>
+
+<div class="w-[360px] h-[446px] bg-[#F0F6F9] space-y-3 pl-[3%]">
+<p class="text-[22px] font-black pt-[30px] " >Врачи</p>
+<img  class="pt-[30px] m-auto" " src="./img/svg (1).png" alt="">
+<p class="pt-[20px]">Стоматолог</p>
+<p>Эндокринолог</p>
+<p>Хирург</p>
+<p> Терапевт</p>
+<p>Невролог</p>
+        <button class="w-[230px] h-[60px] bg-[#00578A] rounded-[5px] flex justify-center pt-[15px] mt-[30px]">Все врачи</button>
+
+</div>
+<div class="w-[360px] h-[446px] bg-[#F0F6F9] space-y-3 pl-[3%]">
+<p class="text-[22px] font-black pt-[30px] " >Детство</p>
+<img  class="pt-[30px] m-auto" " src="./img/svg (1).png" alt="">
+<p class="pt-[20px]">Педиатр</p>
+<p>Стоматолог</p>
+<p>Дерматолог</p>
+<p>Офтальмолог</p>
+<p>Логопед</p>
+        <button class="w-[230px] h-[60px] bg-[#00578A] rounded-[5px] flex justify-center pt-[15px] mt-[30px]">Все врачи</button>
+
+</div>
+</div>
+<div class="h-[500px] bg-gradient-to-r from-[#02B0C5] to-[#0074B8] mt-[50px]">
+    <div class="w-[90%] flex justify-between m-auto items-center pt-[60px]">
+        <p class="text-[48px] font-bold text-white">Записаться на приём</p>
+        <p class="w-[355px] text-white">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+    </div>
+    <div class="lg:flex items-center  w-[90%] justify-between m-auto pt-[100px]">
+    <div class="">
+    <div class="bg-white w-[360px] h-[70px]">
+<div class="flex items-center pt-[20px] w-[80%] justify-between m-auto ">
+    <p>Выберете направление</p>
+    <div>
+    <img class="pt-[5px]" src="./img/Chevron Down.png" alt="">
+    </div>
+</div>
+    </div>
+     <div class="bg-white w-[360px] h-[70px] mt-[20px]">
+<div class="flex items-center pt-[20px] w-[80%] justify-between m-auto ">
+    <p>Выберете врача</p>
+    <div>
+    <img class="pt-[5px]" src="./img/Chevron Down.png" alt="">
+    </div>
+</div>
+    </div>
+    </div>
+    <div>
+    <div class="bg-white w-[360px] h-[70px]">
+<div class="flex items-center pt-[20px] w-[80%] justify-between m-auto ">
+    <p>Ваше имя</p>
+    <div>
+    <img class="pt-[5px]" src="./img/Chevron Down.png" alt="">
+    </div>
+</div>
+    </div>
+     <div class="bg-white w-[360px] h-[70px] mt-[20px]">
+<div class="flex items-center pt-[20px] w-[80%] justify-between m-auto ">
+    <p>Ваш телефон</p>
+    <div>
+    <img class="pt-[5px]" src="./img/Chevron Down.png" alt="">
+    </div>
+</div>
+    </div>
+    </div>
+    <div>
+        <div>
+    <div class="bg-[#00C6BF] w-[360px] h-[70px]">
+<div class="flex justify-center pt-[20px] m-auto ">
+    <p>Оставить заявку</p>
+    
+</div>
+    </div>
+   <div class="flex items-start mt-[20px]">
+    <div>
+    <img class="mt-[7px]" src="./img/Checkbox.png" alt="">
+    </div>
+    <p class="w-[350px] text-[#FFFFFF]">Отправляя заявку, вы соглашаетесь на нашу политику конфиденциальности</p>
+   </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="flex items-center w-[90%] justify-between m-auto">
+    <div>
+        <p class="w-[566px] text-[48px] font-black">Немного о нашем медицинском центре</p>
+        <p class="w-[500px] pt-[30px]">Многопрофильное амбулаторно-поликлиническое учреждение для детей и взрослых в городе Мытищи. Мы предоставляем платные медицинские услуги и занимаем лидирующие позиции среди медицинских учреждений города Мытищи. У нас ежегодно обслуживаются более 150000 пациентов.</p>
+    </div>
+    <div>
+        <img src="./img/image (6).png" alt="">
+    </div>
+</div>
+<div class="bg-[#F0F6F9] w-[90%] h-[250px] m-auto">
+    <div class="w-[96%] justify-between m-auto flex flex-wrap">
+<div>
+    <img class="pt-[40px]" src="./img/cross.png" alt="">
+    <p class="text-[#017CC1] font-black text-[30px] pt-[10px]"> >10</p>
+    <p class="pt-[10px]">лет заботы о вашем </p>
+    <p>здоровье</p>
+</div>
+<div>
+    <img class="pt-[40px]" src="./img/cross.png" alt="">
+    <p class="text-[#017CC1] font-black text-[30px] pt-[10px]"> 150</p>
+    <p class="pt-[10px]">квалифицированных</p>
+    <p>специалистов</p>
+</div>
+
+<div>
+    <img class="pt-[40px]" src="./img/cross.png" alt="">
+    <p class="text-[#017CC1] font-black text-[30px] pt-[10px]"> 3000</p>
+    <p class="pt-[10px]">медицинских услуг по всем</p>
+    <p>направлениям</p>
+</div>
+<div>
+    <img class="pt-[40px]" src="./img/cross.png" alt="">
+    <p class="text-[#017CC1] font-black text-[30px] pt-[10px]"> День в день</p>
+    <p class="pt-[10px]">прием врача любой</p>
+    <p>специальности в день обращения</p>
+</div>
+</div>
+</div>
+
+<div class="flex w-[90%] justify-between items-center m-auto lg:mt-[50px] mt-[400px]">
+<p class="font-black lg:text-[48px]">Популярные услуги</p>
+<div>
+    <img src="./img/Slider Buttons.png" alt="">
+</div>
+</div>
+<div class="lg:flex lg:items-center lg:w-[90%] lg:justify-between lg:m-auto ml-[40px] lg:ml-[40] space-y-20 lg:space-y-0 lg:mt-[50px]">
+<div>
+    <img src="./img/image (7).png" alt="">
+    <div class="w-[305px] bg-[#F0F6F9] h-[200px]">
+<p class="w-[245px] pl-[10%] pt-[30px]">Магнитно-резонансная томография (МРТ)</p>
+<button class="bg-[#00578A] w-[254px] h-[50px] rounded-[5px] ml-[6%] mt-[30px]">Записаться</button>
+    </div>
+</div>
+<div>
+    <img src="./img/close-up-patient-with-stomachache 1.png" alt="">
+    <div class="w-[305px] bg-[#F0F6F9] h-[200px]">
+<p class="w-[245px] pl-[10%] pt-[30px]">Гастроскопия</p>
+<button class="bg-[#00578A] w-[254px] h-[50px] rounded-[5px] ml-[6%] mt-[60px]">Записаться</button>
+    </div>
+</div>
+<div>
+    <img src="./img/image (8).png" alt="">
+    <div class="w-[305px] bg-[#F0F6F9] h-[200px]">
+<p class="w-[245px] pl-[10%] pt-[30px]">Прием гинеколога</p>
+<button class="bg-[#00578A] w-[254px] h-[50px] rounded-[5px] ml-[6%] mt-[60px]">Записаться</button>
+    </div>
+</div>
+<div>
+    <img src="./img/image (9).png" alt="">
+    <div class="w-[305px] bg-[#F0F6F9] h-[200px]">
+<p class="w-[245px] pl-[10%] pt-[30px]">Лабораторная диагностика</p>
+<button class="bg-[#00578A] w-[254px] h-[50px] rounded-[5px] ml-[6%] mt-[60px]">Записаться</button>
+    </div>
+</div>
+</div>
+<p class="font-black text-[48px] lg:ml-[5%] ml-[0] mt-[50px]">Акции</p>
+<div class="lg:flex items-center ml-[5%] justify-between">
+    <img src="./img/01.png "alt="">
+    <img src="./img/02.png" alt="">
+</div>
+
+<div class="flex w-[90%] justify-between items-center m-auto lg:mt-[50px] mt-[400px]">
+<p class="font-black lg:text-[48px]">ПВрачи медицинского центра</p>
+<div>
+    <img src="./img/Slider Buttons.png" alt="">
+</div>
 </div>
 </body>
 </html>
