@@ -39,14 +39,14 @@
             <div class="lg:flex gap-3 hidden"> 
                 <img src="./img/zoom-search.png" alt="" class="bg-[#00C6BF] p-4 rounded-sm hover:bg-[#00578A] 
                 hover:cursor-pointer">
-                
+
                 <button class="text-[#00578A] bg-[#E3EFF5] rounded-[5px] px-6 py-3 
                 hover:bg-[#00578A] hover:text-[#E3EFF5] hover:cursor-pointer"> Личный кабинет </button>
             </div>
 
-            <img src="./img/call.png" alt="">
-            <p class="text-[#7F8D94] text-[16px]">Меню</p>
-            <img src="./img/burger.png" alt="">
+            <img src="./img/call.png" alt="" class="lg:hidden block">
+            <p class="text-[#7F8D94] text-[16px] lg:hidden block">Меню</p>
+            <img src="./img/burger.png" alt="" class="lg:hidden block">
         </nav>
 
         <nav class="lg:flex justify-between items-center my-3 p-5 shadow-xl hidden">
@@ -75,5 +75,386 @@
             hover:text-[#00578A] hover:bg-[#E3EFF5]"> Запись на приём </button>
         </nav>
     </header>
+
+    <main>
+        <!-- Section one -->
+        <section class="bg-[#F0F6F9] lg:h-147 h-[104vh] my-10">
+            <div class="flex max-w-360 mx-auto p-5 lg:flex-row flex-col"> 
+                <div class="flex gap-10 flex-col"> 
+                    <div class="flex gap-4 items-center">
+                        <a href="" class="text-[#353535] text-[16px] hover:cursor-pointer 
+                        hover:underline hover:text-[#35353599]"> Главная </a>
+                        <p class="text-[16px] text-[#353535]"> / </p>
+
+                        <a href="" class="text-[#353535] text-[16px] hover:cursor-pointer 
+                        hover:underline hover:text-[#35353599]"> Направления </a>
+                        <p class="text-[16px] text-[#353535]"> / </p>
+
+                        <a href="" class="text-[#353535] text-[16px] hover:cursor-pointer 
+                        hover:underline hover:text-[#35353599]"> Косметология </a>
+                        <p class="text-[16px] text-[#353535]"> / </p>
+
+                        <a href="" class="text-[#353535] text-[16px] hover:cursor-pointer 
+                        hover:underline hover:text-[#35353599]"> Контурная пластика </a>
+                    </div>
+
+                    <div class="flex flex-col gap-5 justify-center items-center">
+                        <p class="text-[#00578A] text-[22px] font-bold"> Косметология </p>
+                        <h1 class="lg:text-[48px] text-[36px] font-bold"> Контурная пластика </h1>
+                    </div>
+
+                    <div class="flex flex-col gap-5 justify-center items-center">
+                        <h1 class="font-bold text-[48px]"> от 1 500 ₽ </h1>
+                        <button class="bg-[#00C6BF] text-white rounded-[5px] px-6 py-3 hover:cursor-pointer 
+                      hover:text-[#00578A] hover:bg-[#E3EFF5] w-[40%]"> Записаться </button>
+                    </div>
+                </div>
+
+                <div class="relative lg:w-[60%] w-full ">
+                    <img src="./img/Mask group.png" alt="" class="absolute lg:-right-25 top-[0px]">
+                    <img src="./img/Subtract.png" alt="" class="absolute lg:left-40  bottom-0 lg:block hidden">
+                </div>
+            </div>
+        </section>
+
+        <!-- Second section -->
+        <section class="max-w-360 mx-auto p-5 my-10">
+            <!-- First part -->
+            <div class="p-2 bg-[#00578A] flex gap-3 justify-start items-center rounded-[5px]">
+                <button class="bg-transparent text-white rounded-[5px] px-5 py-3 hover:cursor-pointer 
+               hover:text-[#00578A] hover:bg-[#E3EFF5]"> Об услуге </button>
+               <p class="text-white text-[18px]"> | </p>
+               <button class="bg-transparent text-white rounded-[5px] px-5 py-3 hover:cursor-pointer 
+               hover:text-[#00578A] hover:bg-[#E3EFF5]"> Врачи </button>
+               <p class="text-white text-[18px]"> | </p>
+               <button class="bg-transparent text-white rounded-[5px] px-5 py-3 hover:cursor-pointer 
+               hover:text-[#00578A] hover:bg-[#E3EFF5]"> Отзывы </button>
+            </div>
+
+            <!-- Second part -->
+            <div class="bg-[#F0F6F9] py-10 my-5 rounded-[5px]">
+                
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center px-8">
+                    
+                    <div class="flex flex-col items-start gap-4 text-left">
+                        <img src="./img/cross.png" alt="">
+                        <p class="text-[#017CC1] text-[24px] font-bold"> &gt;10 </p>
+                        <p class="text-[16px]"> лет заботы о вашем <br> здоровье </p>
+                    </div>
+
+                    <div class="flex flex-col items-start gap-4 text-left">
+                        <img src="./img/cross.png" alt="">
+                        <p class="text-[#017CC1] text-[24px] font-bold"> 150 </p>
+                        <p class="text-[16px]"> квалифицированных <br> специалистов </p>
+                    </div>
+
+                    <div class="flex flex-col items-start gap-4 text-left">
+                        <img src="./img/cross.png" alt="">
+                        <p class="text-[#017CC1] text-[24px] font-bold"> 3 000 </p>
+                        <p class="text-[16px]"> медицинских услуг по всем <br> направлениям </p>
+                    </div>
+
+                    <div class="flex flex-col items-start gap-4 text-left">
+                        <img src="./img/cross.png" alt="">
+                        <p class="text-[#017CC1] text-[24px] font-bold"> День в день </p>
+                        <p class="text-[16px]"> приём врача любой <br> специальности в день обращения </p>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third part -->
+            <div class="bg-[#F0F6F9] rounded-[14px] p-5 py-8 flex flex-col gap-10">
+    
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-[22px] lg:text-[32px] font-bold">
+                        Все, что вы должны знать о косметологии: секреты красоты и здоровья
+                    </h2>
+
+                    <p class="text-[18px]">
+                        Косметология – это наука и искусство, которое изучает и улучшает красоту и здоровье кожи, волос и ногтей. 
+                        Современная косметология предлагает широкий спектр процедур и продуктов, которые помогают нам выглядеть 
+                        и чувствовать себя лучше. В этой статье мы погрузимся в мир косметологии и рассмотрим основные аспекты этой науки.
+                    </p>
+
+                    <div class="flex flex-col gap-3">
+                        <p class="text-[20px] font-bold text-[#00578A]">
+                            1. Роль косметолога в поддержании красоты и здоровья
+                        </p>
+
+                        <p class="text-[18px]">
+                            Косметолог – это специалист, который помогает нам достичь желаемого внешнего вида и поддерживать 
+                            здоровье нашей кожи и волос. Он или она проводит диагностику, консультирует по уходу за кожей 
+                            и рекомендует процедуры и продукты, которые помогут решить определенные проблемы.
+                        </p>
+                    </div>
+
+                    <div class="border-t border-b border-[#D9E3EA] py-5 lg:block hidden">
+                        <p class="text-[18px] italic">
+                            Пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой. 
+                            Пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой. 
+                            Пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-5">
+                    
+                    <div class="bg-[#E3EFF5] rounded-[10px] p-5 flex flex-col gap-4">
+                        <div class="flex justify-between items-center">
+                            <p class="text-[20px] font-bold">
+                                Пример реализации аккордеона для сео текста
+                            </p>
+                            <p class="text-[28px] text-[#4F4F4F]"> + </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-[#E3EFF5] rounded-[10px] p-5 flex flex-col gap-4">
+                        <div class="flex justify-between items-center">
+                            <p class="text-[20px] font-bold">
+                                Пример реализации аккордеона для сео текста
+                            </p>
+                            <p class="text-[28px] text-[#4F4F4F]"> − </p>
+                        </div>
+
+                        <p class="text-[18px]">
+                            Выбор правильных косметических продуктов является ключевым аспектом косметологии. 
+                            Необходимо учитывать тип кожи, его особенности и проблемы, которые требуют решения. 
+                            Косметолог может помочь вам определиться с выбором наиболее подходящих продуктов, 
+                            которые удовлетворят вашим потребностям.
+                        </p>
+                    </div>
+
+                    <div class="bg-[#E3EFF5] rounded-[10px] p-5 flex flex-col gap-4">
+                        <div class="flex justify-between items-center">
+                            <p class="text-[20px] font-bold">
+                                Пример реализации аккордеона для сео текста
+                            </p>
+                            <p class="text-[28px] text-[#4F4F4F]"> + </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section three -->
+        <section class="max-w-360 mx-auto p-5 my-10">
+            <div class="flex justify-between lg:items-center mb-8 lg:flex-row flex-col gap-5">
+                <h2 class="text-[48px] font-bold"> Врачи </h2>
+
+                <div class="flex gap-3">
+                    <button class="bg-[#E3EFF5] text-[#00578A] rounded-full w-10 h-10 
+                    hover:bg-[#00578A] hover:text-white hover:cursor-pointer"> < </button>
+
+                    <button class="bg-[#E3EFF5] text-[#00578A] rounded-full w-10 h-10 
+                    hover:bg-[#00578A] hover:text-white hover:cursor-pointer"> > </button>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="flex justify-between gap-8 overflow-x-auto">
+
+                <div class="flex flex-col gap-4 min-w-[80%] lg:min-w-0 lg:w-[20%]">
+                    <img src="./img/photo.png" alt="">
+
+                    <div class="flex flex-col gap-2">
+                        <p class="text-[#017CC1] text-[18px] font-bold"> Крятов Андрей </p>
+                        <p class="text-[18px]"> Главный врач, уролог, андролог </p>
+                    </div>
+
+                    <button class="bg-[#00578A] text-white rounded-[5px] py-3 
+                    hover:bg-[#E3EFF5] hover:text-[#00578A] hover:cursor-pointer">
+                        Записаться
+                    </button>
+                </div>
+
+                <div class=" flex flex-col gap-4 min-w-[80%] lg:min-w-0 lg:w-[20%]">
+                    <img src="./img/photo (1).png" alt="">
+
+                    <div class="flex flex-col gap-2">
+                        <p class="text-[#017CC1] text-[18px] font-bold"> Савина Наталья </p>
+                        <p class="text-[18px]"> Врач-невролог </p>
+                    </div>
+
+                    <button class="bg-[#00578A] text-white rounded-[5px] py-3 
+                    hover:bg-[#E3EFF5] hover:text-[#00578A] hover:cursor-pointer">
+                        Записаться
+                    </button>
+                </div>
+
+                <div class="flex flex-col gap-4 min-w-[80%] lg:min-w-0 lg:w-[20%]">
+                    <img src="./img/photo (2).png" alt="">
+
+                    <div class="flex flex-col gap-2">
+                        <p class="text-[#017CC1] text-[18px] font-bold"> Зотова Гюзаль </p>
+                        <p class="text-[18px]"> Врач-терапевт </p>
+                    </div>
+
+                    <button class="bg-[#00578A] text-white rounded-[5px] py-3 
+                    hover:bg-[#E3EFF5] hover:text-[#00578A] hover:cursor-pointer">
+                        Записаться
+                    </button>
+                </div>
+
+                <div class="flex flex-col gap-4 min-w-[80%] lg:min-w-0 lg:w-[20%]">
+                    <img src="./img/photo (3).png" alt="">
+
+                    <div class="flex flex-col gap-2">
+                        <p class="text-[#017CC1] text-[18px] font-bold"> Николаева Оксана </p>
+                        <p class="text-[18px]"> Врач-терапевт </p>
+                    </div>
+
+                    <button class="bg-[#00578A] text-white rounded-[5px] py-3 
+                    hover:bg-[#E3EFF5] hover:text-[#00578A] hover:cursor-pointer">
+                        Записаться
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Fourth section -->
+        <section class="max-w-360 mx-auto p-5 my-10">
+            <section class="max-w-360 mx-auto p-5 my-10">
+            <div class="flex justify-between lg:items-center mb-8 lg:flex-row flex-col gap-5">
+                <h2 class="text-[48px] font-bold"> Отзывы пациентов </h2>
+
+                <div class="flex gap-3">
+                    <button class="bg-[#E3EFF5] text-[#00578A] rounded-full w-10 h-10 
+                    hover:bg-[#00578A] hover:text-white hover:cursor-pointer"> < </button>
+
+                    <button class="bg-[#E3EFF5] text-[#00578A] rounded-full w-10 h-10 
+                    hover:bg-[#00578A] hover:text-white hover:cursor-pointer"> > </button>
+                </div>
+            </div>
+
+            <div class="flex justify-between gap-10">
+                
+                <!-- First testimonial -->
+                <div class="flex flex-col gap-5 lg:w-[49%] w-full">
+                    
+                    <div class="flex flex-col gap-1">
+                        <p class="font-bold text-[18px]"> Балушина Татьяна </p>
+                        <p class="text-[16px]"> 18 апреля 2022 </p>
+                    </div>
+
+                    <img src="./img/Stars.png" alt="" width="100px">
+
+                    <p class="text-[20px] font-semibold">
+                        Попала к Татьяне Ивановне спонтанно. Очень довольна приёмом 
+                        и проведением ультразвуковой диагностики. Спасибо Наталье 
+                        Ивановне за внимательное отношение к пациентам! При 
+                        возникновении проблем теперь только к ней!
+                    </p>
+
+                    <button class="border border-[#017CC1] text-[#017CC1] rounded-[5px] px-6 py-3 w-45
+                    hover:bg-[#017CC1] hover:text-white hover:cursor-pointer">
+                        Подробнее
+                    </button>
+
+                    <p class="text-[20px]"> Врач: 
+                        <span class="text-[#017CC1] font-bold hover:underline hover:cursor-pointer">
+                            Савина Наталья Владимировна
+                        </span>
+                    </p>
+                </div>
+
+                <!-- Second testimonial -->
+                <div class="lg:flex flex-col gap-5 lg:w-[48%] w-full hidden">
+                    
+                    <div class="flex flex-col gap-1">
+                        <p class="font-bold text-[18px]"> Трофимов Иван </p>
+                        <p class="text-[16px]"> 24 ноября 2021 </p>
+                    </div>
+
+                    <img src="./img/Stars.png" alt="" width="100px">
+
+                    <p class="text-[20px] font-semibold">
+                        Огромное спасибо врачу за тщательное обследование. Выявили
+                        нехватку витамина Д, проблем с щитовидной, к счастью, не
+                        оказалось. Доктор приятная в общении и настоящий профессионал!
+                    </p>
+
+                    <button class="border border-[#017CC1] text-[#017CC1] rounded-[5px] px-6 py-3 w-45
+                    hover:bg-[#017CC1] hover:text-white hover:cursor-pointer">
+                        Подробнее
+                    </button>
+
+                    <p class="text-[20px]"> Врач: 
+                        <span class="text-[#017CC1] font-bold hover:underline hover:cursor-pointer">
+                            Крятов Андрей Михайлович
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section five -->
+        <section class="max-w-360 mx-auto p-10 my-10 bg-linear-to-r from-[#02B0C5] to-[#0074B8] rounded-[14px] flex flex-col lg:flex-col gap-10">
+            
+            <!-- Part top -->
+            <div class="flex flex-col lg:flex-row lg:justify-between gap-10 lg:px-10 px-0">
+                <h2 class="text-white text-[48px] lg:text-[40px] font-bold"> Записаться на приём </h2>
+                    
+                <p class="text-white text-[20px]">
+                    Оставьте заявку и мы свяжемся <br> 
+                    с вами в ближайшее время
+                </p>
+            </div>
+
+            <!-- Bottom part -->
+            <div class="flex flex-col lg:flex-row lg:justify-center gap-10 w-full">
+
+                <!-- Left part -->
+                <div class="flex flex-col lg:flex-row gap-6 w-full lg:w-[60%]">
+
+                    <div class="flex flex-col gap-6 w-full">
+                        <select class="bg-white rounded-md px-5 py-4 text-[16px] 
+                        w-full font-semibold">
+                            <option> Выберете направление </option>
+                        </select>
+
+                            
+                        <select class="bg-white rounded-md px-5 py-4 text-[16px] 
+                        w-full font-semibold">
+                            <option> Выберете врача </option>
+                        </select>
+                    </div>
+
+                    <div class="flex flex-col gap-6 w-full">
+                        <input type="text" placeholder="Ваше имя"
+                        class="bg-white rounded-md px-5 py-4 text-[16px] 
+                        w-full ">
+
+                        <input type="tel" placeholder="Ваш телефон"
+                        class="bg-white rounded-md px-5 py-4 text-[16px] 
+                        w-full">
+                    </div>
+
+                </div>
+
+                <!-- Right part -->
+                <div class="flex flex-col gap-6 w-full lg:w-[30%]">
+
+                    <button class="bg-[#00C6BF] text-white rounded-md px-8 py-4 
+                    w-full hover:bg-white hover:text-[#00578A] 
+                    hover:cursor-pointer">
+                            Оставить заявку
+                    </button>
+
+                    <div class="flex gap-3 items-start">
+                        <input type="checkbox" class="mt-2" id="i1">
+
+                        <label class="text-white text-[14px]" for="i1">
+                            Отправляя заявку, вы соглашаетесь на нашу 
+                            политику конфиденциальности
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
